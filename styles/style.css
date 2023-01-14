@@ -1,0 +1,39 @@
+/* common style  */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* header style */
+header{
+    padding: 87px 120px 50px 120px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    font-size:24px;
+    
+}
+
+.header ul {
+    display: flex;
+    gap: 34px;
+}
+
+.header ul li {
+    list-style-type: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* header end  */
